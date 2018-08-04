@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<title>{{ page.meta_title }} | {{ site.title }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="{{ page.meta_description }} | {{ site.description }} " />
+	<meta name="keywords" content="{{ site.meta_keywords }}" />
+	<meta name="google-site-verification" content="o41K64F4TLbgyETKnC7gq7WfP7voY_vab1z61Mw2SR0" />	
+	<link rel="stylesheet" type="text/css" href="/css/earthsong-styles-{{ site.css_ver }}.css" />
+</head>
+
+{% if page.body_id %}
+	<body id="{{ page.body_id }}" >
+{% else %}
+	<body>
+{% endif %}
+
+<div id="main_container">
+	<div id="header"> 
+		<a href="/" id="header_link"></a>
+	</div>	 
+	<div id="main_container_inner"> 
+		
+		{% if page.page_heading %}
+			{% if page.template == "index" %}
+				<h1>
+			{% else %}			
+				<h1 id="page_header">
+			{% endif %}
+			{{ page.page_heading }}</h1>
+		{% endif %} 
+		
+		{% if page.display_header_buttons == 'Y' %}
+		
+		
+		<div id="header_buttons">
+			<a href="index.html" id="nav_home">home</a> 
+			<a href="{{ page.back_link }}.html" id="nav_back">back</a> 
+			<a href="{{ page.next_link }}.html" id="nav_next">next</a>						
+			<a href="/contact_earthsong.html">email</a>
+		</div>
+		{% endif %}	
+		 
+		
+		{% if page.click_heading %}
+			<div id="click_heading">click for more info</div>
+		{% endif %}
+		 
+	 	{% if page.display_main_content == 'Y' %}
+			<div id="main_content">
+	 	{% endif %}
+		
+
+		{{ content }}
+
+
+{% if page.side_photos %} 
+	<div class="side_photos" id="side_photos_left"></div>
+	<div class="side_photos" id="side_photos_right"></div>
+{% endif %}
+{% if page.display_main_content == 'Y' %}
+	</div>
+{% endif %}
+
+  	</div>  
+
+{% if page.display_footer %}
+	<div class="footer"></div>
+{% endif %}
+
+</div> 
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5056119-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
