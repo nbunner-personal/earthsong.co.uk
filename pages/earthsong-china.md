@@ -7,6 +7,7 @@ page_title: china
 side_photos: Y
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: China Music Workshops for Schools
 meta_description: "We provide Chinese and other multicultural music workshops for schools."
 ---

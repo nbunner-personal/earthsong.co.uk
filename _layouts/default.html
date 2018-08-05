@@ -34,13 +34,11 @@
 		{% endif %} 
 		
 		{% if page.display_header_buttons == 'Y' %}
-		
-		
 		<div id="header_buttons">
-			<a href="index.html" id="nav_home">home</a> 
-			<a href="{{ page.back_link }}.html" id="nav_back">back</a> 
-			<a href="{{ page.next_link }}.html" id="nav_next">next</a>						
-			<a href="/contact_earthsong.html">email</a>
+			<a href="/index.html" id="nav_home">home</a> 
+			<a href="/{{ page.back_link }}.html" id="nav_back">back</a> 
+			<a href="/{{ page.next_link }}.html" id="nav_next">next</a>						
+			<a href="/contact_earthsong.html" id="nav_email">email</a>
 		</div>
 		{% endif %}	
 		 

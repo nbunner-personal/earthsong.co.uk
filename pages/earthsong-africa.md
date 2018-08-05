@@ -7,6 +7,7 @@ page_title: africa
 side_photos: Y
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: "African Music Workshops for Schools"
 meta_description: "We provide African and other multicultural music workshops for schools."
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /earthsong-round-the-world-2.html
-back_link: earthsong-japan.html
-next_link: earthsong-china.html
+back_link: earthsong-japan
+next_link: earthsong-china
 page_heading: Round the world Music Workshop
 body_id: round
 page_title: round 
