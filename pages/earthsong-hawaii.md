@@ -1,12 +1,15 @@
 ---
 layout: default
 permalink: /earthsong-hawaii.html
+back_link: earthsong-australasia-oceania
+next_link: earthsong-super-sound-science
 page_heading: Hawaii and Polynesia Music Workshop
 body_id: hawaii
 page_title: hawaii 
 side_photos: Y 
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: Hawaii and Polynesia Music Workshops for Schools
 meta_description: We provide Hawaii and Polynesia Music and other multicultural music workshops for schools.
 ---

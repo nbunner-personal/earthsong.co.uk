@@ -7,6 +7,7 @@ page_title: contact
 side_photos: Y 
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: Contact Earthsong
 meta_description: How to contact Earthsong and enquire about multicultural workshops in schools.
 ---

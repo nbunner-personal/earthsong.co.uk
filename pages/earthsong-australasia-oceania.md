@@ -1,12 +1,15 @@
 ---
 layout: default
 permalink: /earthsong-australasia-oceania.html
+back_link: earthsong-china
+next_link: earthsong-hawaii
 page_heading: Australasia and Oceania Music Workshop
 body_id: aus
 page_title: aus
 side_photos: Y
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: "Australasia and Oceania Music Workshops for Schools"
 meta_description: "We provide Australasia and Oceania and other multicultural music workshops for schools."
 ---

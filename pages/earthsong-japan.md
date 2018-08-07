@@ -1,12 +1,15 @@
 ---
 layout: default
 permalink: /earthsong-japan.html
+back_link: earthsong-india
+next_link: earthsong-round-the-world-2
 page_heading: Japan Music Workshop
 body_id: japan
 page_title: japan
 side_photos: Y
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: "Japan Music Workshops for Schools"
 meta_description: "We provide Japan and other multicultural music workshops for schools."
 ---

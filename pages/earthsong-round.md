@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /earthsong-round-the-world-2.html
-back_link: earthsong-japan
-next_link: earthsong-china
+permalink: /earthsong-round-the-world.html
+back_link: earthsong-africa
+next_link: earthsong-india
 page_heading: Round the world Music Workshop
 body_id: round
 page_title: round 

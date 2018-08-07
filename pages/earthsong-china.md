@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /earthsong-china.html
+back_link: earthsong-round-the-world-2
+next_link: earthsong-australasia-oceania
 page_heading: China Music Workshop
 body_id: china
 page_title: china

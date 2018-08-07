@@ -1,12 +1,15 @@
 ---
 layout: default
 permalink: /earthsong-india.html
+back_link: earthsong-round-the-world
+next_link: earthsong-japan
 page_heading: India Music Workshop
 body_id: india
 page_title: india 
 side_photos: Y 
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: Indian Music Workshops for Schools
 meta_description: We provide Indian Music and other multicultural music workshops for schools.
 ---

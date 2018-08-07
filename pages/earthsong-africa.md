@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /earthsong-africa.html
+back_link: earthsong-rainforest
+next_link: earthsong-round-the-world
 page_heading: Africa Music Workshop
 body_id: africa
 page_title: africa

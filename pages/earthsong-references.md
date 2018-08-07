@@ -7,6 +7,7 @@ page_title: ref
 side_photos: Y 
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: Earthsong References
 meta_description: I highly recommend Earthsong. They convey a passion and respect for their music and have ways of getting children greatly involved in some wonderfully creative music making.
 ---

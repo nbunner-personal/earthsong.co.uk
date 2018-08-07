@@ -1,12 +1,15 @@
 ---
 layout: default
 permalink: /earthsong-super-sound-science.html
+back_link: earthsong-hawaii
+next_link: earthsong-rainforest
 page_heading: Super Sound Science Music Music Workshop
 body_id: super
 page_title: super 
 side_photos: Y 
 display_footer: Y 
 display_main_content: Y
+display_header_buttons: Y
 meta_title: Super Sound Science Music Workshops for Schools
 meta_description: We provide Super Sound Science Music workshops for schools featuring music from around the world.
 ---
