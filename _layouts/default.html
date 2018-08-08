@@ -36,8 +36,11 @@
 		{% if page.display_header_buttons == 'Y' %}
 		<div id="header_buttons">
 			<a href="/index.html" id="nav_home">home</a> 
+			{% if page.back_link %}
 			<a href="/{{ page.back_link }}.html" id="nav_back">back</a> 
-			<a href="/{{ page.next_link }}.html" id="nav_next">next</a>						
+			{% endif %}
+			{% if page.next_link %}
+			<a href="/{{ page.next_link }}.html" id="nav_next">next</a>	{% endif %}					
 			<a href="/contact-earthsong.html" id="nav_email">email</a>
 		</div>
 		{% endif %}	
